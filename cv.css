@@ -1,0 +1,187 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "TenorSans";
+  src: url("/fonts/TenorSans-Regular.ttf");
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #faeedd;
+  font-family: Montserrat;
+}
+
+.border {
+  width: 1100px;
+  border: 1.5px solid black;
+  margin: 30px 0;
+}
+
+.st-part {
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 500px;
+}
+
+.photo {
+  width: 350px;
+}
+
+.text {
+  width: 450px;
+}
+
+.name {
+  font-family: TenorSans;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 100;
+  text-align: end;
+  margin: 30px 0 0 0;
+}
+
+.prof {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  text-align: end;
+  margin: 0;
+}
+
+.desc {
+  text-align: end;
+  margin: 40px 0;
+}
+
+.main-info {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pet-container {
+  width: 1000px;
+}
+
+.pet-header {
+  font-family: TenorSans;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 100;
+  text-align: start;
+  margin: 30px 0 40px 0;
+}
+
+.pet-list > li {
+    margin-bottom: 80px; 
+}
+
+.pet-list > li > h5 {
+  font-size: 30px;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.date-pet {
+  font-weight: 300;
+  margin: 0 20px 0 10px;
+}
+
+.pet-list > li > p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.link {
+    color: black;
+    font-size: 20px;
+}
+
+.education-container {
+    width: 1000px;
+    
+}
+
+.education, .skills-text, .languages {
+    font-family: TenorSans;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 100;
+    text-align: start;
+}
+
+.university-container, .school-21-container {
+    margin: 0 0 40px 30px;
+}
+
+.university, .school-21 {
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.skills-list > li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.my-languages {
+    font-size: 20px;
+    margin: 0 0 40px 30px;
+}
+
+.footer {
+    width: 1000px;
+    height: 200px;
+}
+
+.contacts-container {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+[class$="-icon"] {
+    width: 20px;
+    text-align: ;
+}
+
+[class$="-cont"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.git-address, .tg-address {
+    color: black;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .st-part {
+        display: block;
+    }
+}
